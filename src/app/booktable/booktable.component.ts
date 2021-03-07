@@ -57,7 +57,6 @@ onSubmit(){
 
       this._ser.bookTable(this.data)
       .subscribe(res => {
-console.log(res)
 this.notifyService.showSuccess("Your Table is Booked !!", "noidaClub.com")   
    });
 }
