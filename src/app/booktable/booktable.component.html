@@ -1,0 +1,82 @@
+
+<div class="center">
+    <div class="container-fluid">
+        <h1>Find your table for any occasion</h1>
+        <div class="card ">
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+          <span>Select Date</span>
+    <div class="form-group-filter col-lg-8 col-md-6">
+        <div class="input-group-md input-group input-daterange">
+            <div class="input-group datepicker-range field-advertiserreport-starttime">
+                <input type="text" id="date" class="input-md form-control datepicker-from" 
+                     [value]="date | date:'yyyy-MM-dd'" autocomplete="off" name="sd" #sd="ngbDatepicker" ngbDatepicker (click)="sd.toggle(); customDate(); changeOverFlow();" [(ngModel)]="date" (dateSelect)="onDateSelect($event)" [minDate]="minDateForStartDate" >
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm">
+    <span>Select Time</span>
+    <div class="form-group-column col-lg-2 col-md-3 " >
+        <select name="timeperiod" class="date_range select-filter" [(ngModel)]="timeValue">
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="01:00 PM">01:00 PM</option>
+            <option value="02:00 PM">02:00 PM</option>
+            <option value="03:00 PM">03:00 PM</option>
+            <option value="04:00 PM">04:00 PM</option>
+            <option value="05:00 PM">05:00 PM</option>
+            <option value="06:00 PM">06:00 PM</option>
+            <option value="07:00 PM">07:00 PM</option>
+            <option value="08:00 PM">08:00 PM</option>
+            <option value="09:00 PM">09:00 PM</option>
+            <option value="10:00 PM">10:00 PM</option>
+        </select>
+   </div>
+    </div>
+    <div class="col-sm">
+<span>Select Table</span>
+    <div class="form-group-column col-lg-2 col-md-3 " >
+        <select name="table" class="date_range select-filter" [(ngModel)]="person">
+            <option value="1 Person">1 Person</option>
+            <option value="2 Person">2 Person</option>
+            <option value="3 Person">3 Person</option>
+            <option value="4 Person">4 Person</option>
+            <option value="5 Person">5 Person</option>
+            <option value="6 Person">6 Person</option>
+            <option value="7 Person">7 Person</option>
+            <option value="8 Person">8 Person</option>
+            <option value="9 Person">9 Person</option>
+            <option value="10 Person">10 Person</option>
+            <option value="11 Person">11 Person</option>
+            <option value="12 Person">12 Person</option>
+            <option value="13 Person">13 Person</option>
+            <option value="14 Person">14 Person</option>
+            <option value="15 Person">15 Person</option>
+            <option value="Large Party">Large Party</option>
+
+        </select>
+   </div>    </div>
+  </div>
+
+  <div class="row">
+      <div class="col-md-3 lctn">
+    <div class="form-group">
+        <span>Location</span>
+        <input type="text" [(ngModel)]="location" class="form-control">
+      </div>      
+  </div>
+  <div class="col-md-6">
+
+  </div>
+  <div class="col-md-3">
+    <button class="button" style="margin-top: 20px;" type="submit" (click)="onSubmit()">Let's go</button>
+
+  </div>
+  </div>
+</div>
+        </div>
+    </div>
+</div>

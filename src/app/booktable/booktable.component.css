@@ -1,0 +1,125 @@
+.card{
+    margin: 10px 10px;
+    padding: 10px 20px;
+}
+.center {
+  margin: auto;
+  width: 96%;
+  padding: 10px;
+  transform: translate(7%, 54%);
+
+}
+
+h1 {
+  color: #999999;
+  font-family: arial, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+span {
+  color: green;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.lctn {
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.select-filter {
+  height: 34px;
+  line-height: 1.428571429;
+  padding: 6px 24px 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+  font-size: 14px;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px rgba(102, 175, 233, 0.6);
+  border-top-color: transparent;
+  background-color: #fff;
+}
+
+.form-group-title,
+label {
+  cursor: pointer;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+div.datepicker-range {
+  width: 100%;
+}
+
+.datepicker-from {
+  border-radius: 4px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  text-align: left !important;
+}
+
+.datepicker-range {
+  padding: 0 !important;
+  border: 0 !important;
+  text-align: left !important;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+.input-group .form-control {
+  display: table-cell;
+}
+
+.input-group-addon,
+.input-group-btn,
+.input-group.form-control {
+  display: table-cell;
+}
+
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+
+
+
+.active-options {
+  background-color: #337bb7;
+  color: white;
+}
+
+.overflow {
+  overflow: visible;
+}
