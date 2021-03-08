@@ -6,7 +6,7 @@ import { ViewBookingComponent } from './view-booking/view-booking.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo:'/view/bookingTables',
+    redirectTo:'/bookTable',
     pathMatch:"full"     },
   {
     path: 'view/bookingTables',
